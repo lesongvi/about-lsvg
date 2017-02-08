@@ -171,14 +171,6 @@ html {
 @viewport {
     width: device-width
 }
-::-moz-selection {
-    background: #414141;
-    color: #fff
-}
-::selection {
-    background: #414141;
-    color: #fff
-}
 body,
 html {
     position: relative
@@ -235,20 +227,6 @@ img {
 }
 input[type=submit] {
     border: none
-}
-#gform_submit_button_1 {
-    font-family: Karla, sans-serif;
-    text-transform: uppercase;
-    font-size: 1.125em;
-    font-weight: 700;
-    background: #5dc5c3;
-    padding: .625em;
-    margin-left: 1.35em;
-    color: #ffffff;
-    width: 150px;
-}
-#gform_submit_button_1:hover {
-    background: #d9252e;
 }
 .trigger_hide,
 .trigger_show {
@@ -316,9 +294,6 @@ p {
 .top__nav li ul,
 .wrap_1680 {
     overflow: hidden
-}
-body {
-    background: #a1a1a1
 }
 .wrap_1680 {
     background: #fff;
